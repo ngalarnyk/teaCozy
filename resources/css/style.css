@@ -1,25 +1,37 @@
 header {
-	background-color: black;
+	display: flex;
 	height: 69px;
 	border-bottom: 1px solid seashell;
-	display: flex;
 	font-family: Helvetica;
 	font-size: 22px;
-	color: seashell;
 	opacity: 0.9;
 	align-items: center;
+	background-color: black;
+	justify-content: space-between;
+}
+
+html {
+	background-color: black;
 }
 
 header nav {
-	text-decoration: underline;
+	display: inline-flex;
+}
+
+header a {
 	color: seashell;
+	text-decoration: underline;
+	padding-right: 25px;
 }
 
 div {
-	display: block;
+	display: flex block;
+	border: 1px solid black;
 }
 
 .logo img {
+	display: flex;
 	margin-left: 10px;
 	margin-right: 50px;
+	height: 50px;
 }
