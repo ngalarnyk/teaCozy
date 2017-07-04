@@ -47,7 +47,7 @@ header a {
 	display: fixed;
 }
 
-.main-content {
+.main-section {
 	padding-top: 69px;
 	opacity: 0.9;
 	width: 1200px;
@@ -77,4 +77,22 @@ header a {
 h2, h3, h4 {
 	margin: 0;
 	padding: 10px;
+}
+
+.flex-container img {
+	height: 200px;
+	width: 300px;
+	padding: 10px;
+	display: block;
+}
+
+.teas-section {
+	width: 1000px;
+	height: 700px;
+	padding-top: 70px;
+	margin: auto;
+}
+
+.teas {
+	padding: 5px;
 }
