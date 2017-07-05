@@ -77,6 +77,7 @@ header a {
 h2, h3, h4 {
 	margin: 0;
 	padding: 10px;
+	display: block;
 }
 
 .flex-container img {
@@ -95,4 +96,62 @@ h2, h3, h4 {
 
 .teas {
 	padding: 5px;
+}
+
+/**Location Section below**/
+
+div#locations {
+	background-image: url(../images/img-locations-background.jpg);
+	height: 575px;
+	display: flex;
+	flex-direction: column;
+}
+
+#locations .flex-container{
+	margin: auto;
+	width: 1100px;
+}
+
+.flex-container.locations {
+	padding-top: 5px;
+}
+
+.location {
+	opacity: 1.0;
+	padding: 10px;
+	margin: 5px 20px;
+	background-color: black;
+	flex-basis: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 150px;
+}
+
+.flex-container.location {
+	display: flex;
+	justify-content: center;
+}
+
+#locations h2 {
+	display: flex;
+	margin: auto;
+	padding-top: 80px;
+}
+
+/**Copyright below**/
+
+.info {
+	height: 200px;
+	width: auto;
+	padding-top: 20px;
+}
+
+.copyright {
+	display: flex;
+	width: 100%;
+	height: auto;
+	align-content: flex-start;
+	padding-left: 20px;
+	padding-bottom: 5px;
 }
